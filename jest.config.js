@@ -16,10 +16,11 @@ moduleNameMapper: {
   // '<rootDir>' 토큰을 사용해 루트 경로를 참조할 수 있습니다.
   modulePathIgnorePatterns: [
     '<rootDir>/node_modules',
-    '<rootDir>/dist'
+    '<rootDir>/dist',
+    '<rootDir>/cypress'
   ],
   // jsdom(html) 환경에 대한 URL을 설정
-  testURL: 'https://localhost',
+  testURL: 'http://localhost',
 
   // 정규식과 일치하는 파일의 변환 모듈을 지정합니다.
   transform: {
